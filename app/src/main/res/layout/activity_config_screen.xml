@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68cae3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Settings"
+        android:textColor="@color/radio_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/radio_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icons"
+        android:layout_alignStart="@+id/editName"
+        android:layout_alignEnd="@+id/editName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="59dp"
+        android:backgroundTint="#85E285"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="@color/radio_color"
+        android:textSize="17sp" />
+
+    <RadioGroup
+        android:id="@+id/difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/difficultyHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/easyMode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/modeselect"
+            android:checked="true"
+            android:text="Easy"
+            android:textAlignment="center"
+            android:textColorHighlight="#174B17"
+            android:textColorLink="#174B17"
+            android:textSize="18sp"
+            app:useMaterialThemeColors="false"
+            android:button="@android:color/transparent"
+            android:buttonTint="@color/radio_color"
+            android:textColor="@color/radio_color"
+            />
+
+        <RadioButton
+            android:id="@+id/mediumMode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/modeselect"
+            android:checked="false"
+            android:padding="4dp"
+            android:text="Medium"
+            android:textAlignment="center"
+            android:textColorLink="#174B17"
+            android:textSize="18sp"
+            android:button="@android:color/transparent"
+            android:buttonTint="@color/radio_color"
+            android:textColor="@color/radio_color"/>
+
+        <RadioButton
+            android:id="@+id/hardMode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/modeselect"
+            android:checked="false"
+            android:text="Hard"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:button="@android:color/transparent"
+            android:buttonTint="@color/radio_color"
+            android:textColor="@color/radio_color"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/difficultyHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Difficulty"
+        android:textColor="@color/radio_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/charHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/difficulty"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Select a Player"
+        android:textColor="@color/radio_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/charHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:checkedButton="@id/turtle1">
+
+        <RadioButton
+            android:id="@+id/turtle1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/selectturtle1"
+            android:button="@android:color/transparent"
+            android:padding="4dp" />
+
+        <RadioButton
+            android:id="@+id/turtle2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/selectturtle2"
+            android:button="@android:color/transparent"
+            android:padding="4dp" />
+
+        <RadioButton
+            android:id="@+id/turtle3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/selectturtle3"
+            android:button="@android:color/transparent"
+            android:padding="4dp" />
+    </RadioGroup>
+
+</RelativeLayout>

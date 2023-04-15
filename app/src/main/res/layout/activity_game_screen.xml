@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".GameScreen">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; Change wrap_content ok for layout width and height? &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/score"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="SCORE"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:width="120dp"-->
+<!--            android:textSize="18dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/difficultyTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="DIFFICULTY"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:width="120dp"-->
+<!--            android:textSize="18dp" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_y="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/scoreNumber"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:width="120dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="0"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/difficulty"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:width="120dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="diff"-->
+<!--            android:textStyle="bold" />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/username"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_x="330dp"-->
+<!--        android:layout_y="650dp"-->
+<!--        android:text="Username"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/levelsTitle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_x="10dp"-->
+<!--        android:layout_y="650dp"-->
+<!--        android:text="LIVES: "-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/levels"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_x="77dp"-->
+<!--        android:layout_y="650dp"-->
+<!--        android:text="0"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+
+<!--    <AbsoluteLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="139dp"-->
+<!--        android:layout_y="564dp"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/icon"-->
+<!--        android:layout_width="120px"-->
+<!--        android:layout_height="120px"-->
+<!--        android:layout_x="183dp"-->
+<!--        android:layout_y="515dp"-->
+<!--        android:rotation="0"-->
+<!--        app:srcCompat="@drawable/selectturtle1" />-->
+
+</AbsoluteLayout>
