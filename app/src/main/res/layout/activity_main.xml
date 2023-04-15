@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68cae3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/startImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/startscreen"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startImage"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="50dp"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textColor="@color/radio_color"
+        android:backgroundTint="#85E285" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startImage"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"
+        android:text="Quit"
+        android:textStyle="bold"
+        android:textColor="@color/radio_color"
+        android:backgroundTint="#85E285" />
+
+</RelativeLayout>
