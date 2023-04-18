@@ -4,31 +4,30 @@
 
 Mobile game where player controls a turtle character attempting to cross river and oil spill roads. Rivers are filled withboats of varying speeds and directions and oil spill roads consist of floating logs that the player must jump on. The goal of the game is to reach the sand tiles at the other end of the game map.
 
-## Updates
-* Fixed internal server error when user tries to sign into their Google account
-* Changed modal component design
-* Adjusted responsive UI design by collapsing suggestions component and resizing posts component to medium-sized screens
-
 ## Problems
 These are the current problems being considered for improvement or addition to the program. The following issues/solutions are in no particular order.
-* Improve feed UI on different size screens
-* Improve signin page UI on smaller screens
-* Implement video uploading
-* Implement @ and # functionalities
-* Implement bookmark animation
-* Allow click on comment button to prompt user to comment
+* Fix bug when player does not select a difficulty and turtle sprite other than the defaults
+* Fix bug when score does not increment on the first life after player presses "Play Again?" on the victory screen
+* Add rules screen
+* Implement different obstacle speeds for each difficulty mode
+* Implement endless mode
+* Implement timer
 
 ## Issues and Discussions
 Please feel free to send bugs and issues in the Issues tab. If you have GUI suggestions or any other suggestions, please add them in the Discussions tab.
 
 ## Version History
-* 1.02
-    * Deployed on Vercel
-    * Various bug fixes and optimizations
-    * Changed modal component design
-    * Adjusted responsive UI for all screen sizes
-* 1.01
-    * Initial Release
+* 5.0
+    * Sprint 5 - Logs, Victory Screen
+* 4.0
+    * Sprint 4 - Oil Tile Collision, Boat Collision, Game Over Screen
+* 3.0
+    * Sprint 3 - Boat Obstacles, Boat Movement, Score
+    * Major Refactoring
+* 2.0
+    * Sprint 2 - Tile Map, Character Sprite Joystick Movement
+* 1.0
+    * Sprint 1 - Title Screen, Configuration Screen, Initial Game Screen
 
 ## Acknowledgements
 [LinkedIn](https://www.linkedin.com/in/ericchenatl/)<br/>
