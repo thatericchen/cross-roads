@@ -36,4 +36,4 @@ Please feel free to send bugs and issues in the Issues tab. If you have GUI sugg
 echen7266@gmail.com
 ```
 
-[pictures]: https://imgur.com/Om4Vm47
+[pictures]: https://i.imgur.com/Om4Vm47.png
