@@ -2,7 +2,7 @@
 
 ![pictures]
 
-Mobile game where player controls a turtle character attempting to cross river and oil spill roads. Rivers are filled withboats of varying speeds and directions and oil spill roads consist of floating logs that the player must jump on. The goal of the game is to reach the sand tiles at the other end of the game map.
+Mobile game where player controls a turtle character attempting to cross river and oil spill roads. Rivers are filled with boats of varying speeds and directions and oil spill roads consist of floating logs that the player must jump on. The goal of the game is to reach the sand tiles at the other end of the game map.
 
 ## Problems
 These are the current problems being considered for improvement or addition to the program. The following issues/solutions are in no particular order.
