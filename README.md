@@ -34,6 +34,7 @@ Please feel free to send bugs and issues in the Issues tab. If you have GUI sugg
 [LinkedIn](https://www.linkedin.com/in/ericchenatl/)<br/>
 ```
 echen7266@gmail.com
+justinyang333@gmail.com
 ```
 
 [pictures]: https://i.imgur.com/Om4Vm47.png
