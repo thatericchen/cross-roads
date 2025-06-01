@@ -26,10 +26,10 @@ CrossRoads is a mobile game where the player controls a turtle character attempt
  
 ## Next Steps
 The following enhancements and fixes are planned for future development, presented in no particular order. We aim to improve the game's functionality, performance, and overall player experience.
-- Fix the bug where the player does not select a difficulty and turtle sprite other than the defaults.
-- Fix the bug where the score does not increment on the first life after pressing "Play Again?" on the victory screen.
+- Fix bug where player does not select a difficulty and turtle sprite other than the defaults.
+- Fix bug where score does not increment on the first life after pressing "Play Again?" on the victory screen.
 - Address performance issues causing lag on older phone versions during name input.
-- Add a rules screen to clearly explain gameplay mechanics and objectives.
+- Add rules screen to clearly explain gameplay mechanics and objectives.
 - Implement varying obstacle speeds for each difficulty mode to better match player skill levels.
 - Add an endless mode to provide continuous gameplay beyond the initial levels.
 - Integrate a timer to track player performance and add a time-based challenge element.
